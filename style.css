@@ -2,10 +2,24 @@ body{
 	background-color: #f0f0f0;
 }
 .main-wrapper{
-	padding: 20px;
-	width: 50%;
+	box-sizing: border-box;
+	padding: 20px 70px;
+	width: 65%;
 	margin: 20px auto;
 	text-align: center;
 	background-color: #fff;
 	border: 1px solid #ddd;
+	font-size: 3.5em;
+}
+.page-head{
+	font-size: 1em;
+}
+.main-content{
+	font-size: 0.35em;
+	font-family: sans-serif;
+}
+@media screen and (max-width: 480px){
+	.main-wrapper{
+		font-size: 1.5em;
+	}
 }
